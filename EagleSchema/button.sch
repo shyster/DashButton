@@ -8907,38 +8907,48 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <part name="R6" library="resistor" deviceset="R-EU_" device="R0603" value="103"/>
 <part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="103"/>
 <part name="RGB_LED" library="led" deviceset="RGB" device=""/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="R0603" value="103"/>
+<part name="R23" library="resistor" deviceset="R-EU_" device="R0603" value="103"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C1206K" value="0.1"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="R0603" value="103"/>
+<part name="BAT-1" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="BAT+1" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="BAT+2" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="BAT-2" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="ESP" gate="G$1" x="106.68" y="53.34"/>
+<instance part="ESP" gate="G$1" x="114.3" y="53.34"/>
 <instance part="T1" gate="A" x="22.86" y="43.18" rot="MR90"/>
 <instance part="T2" gate="A" x="27.94" y="27.94"/>
 <instance part="R10" gate="G$1" x="2.54" y="38.1" rot="R270"/>
 <instance part="R12" gate="G$1" x="20.32" y="0" rot="R90"/>
 <instance part="GND1" gate="1" x="20.32" y="-15.24"/>
 <instance part="GND2" gate="1" x="27.94" y="-15.24"/>
-<instance part="GND3" gate="1" x="114.3" y="35.56"/>
+<instance part="GND3" gate="1" x="121.92" y="35.56"/>
 <instance part="GND4" gate="1" x="5.08" y="-15.24"/>
-<instance part="R14" gate="G$1" x="53.34" y="50.8" rot="R270"/>
-<instance part="R15" gate="G$1" x="58.42" y="50.8" rot="R270"/>
+<instance part="R14" gate="G$1" x="60.96" y="50.8" rot="R270"/>
+<instance part="R15" gate="G$1" x="66.04" y="50.8" rot="R270"/>
 <instance part="GND5" gate="1" x="-7.62" y="-15.24"/>
-<instance part="R19" gate="G$1" x="68.58" y="-5.08" rot="R270"/>
-<instance part="GND7" gate="1" x="68.58" y="-15.24"/>
-<instance part="GND6" gate="1" x="119.38" y="-15.24"/>
-<instance part="R21" gate="G$1" x="119.38" y="0" rot="R270"/>
-<instance part="R20" gate="G$1" x="93.98" y="27.94"/>
-<instance part="R16" gate="G$1" x="58.42" y="38.1" rot="R90"/>
+<instance part="R19" gate="G$1" x="76.2" y="-5.08" rot="R270"/>
+<instance part="GND7" gate="1" x="76.2" y="-15.24"/>
+<instance part="GND6" gate="1" x="127" y="-15.24"/>
+<instance part="R21" gate="G$1" x="127" y="0" rot="R270"/>
+<instance part="R20" gate="G$1" x="101.6" y="25.4"/>
+<instance part="R16" gate="G$1" x="66.04" y="38.1" rot="R90"/>
 <instance part="S1" gate="S" x="7.62" y="0" rot="R270"/>
 <instance part="U1" gate="G$1" x="40.64" y="43.18"/>
 <instance part="GND8" gate="1" x="40.64" y="27.94"/>
 <instance part="BAT+" gate="G$1" x="-10.16" y="33.02"/>
 <instance part="BAT-" gate="G$1" x="-10.16" y="22.86"/>
-<instance part="GND9" gate="1" x="58.42" y="-15.24"/>
-<instance part="R18" gate="G$1" x="68.58" y="35.56" rot="R270"/>
-<instance part="R17" gate="G$1" x="63.5" y="35.56" rot="R270"/>
+<instance part="GND9" gate="1" x="66.04" y="-15.24"/>
+<instance part="R18" gate="G$1" x="76.2" y="35.56" rot="R270"/>
+<instance part="R17" gate="G$1" x="71.12" y="35.56" rot="R270"/>
 <instance part="D4" gate="G$1" x="7.62" y="20.32" rot="R180"/>
 <instance part="IC1" gate="G$1" x="-58.42" y="33.02"/>
 <instance part="K1" gate="G$1" x="-99.06" y="25.4" rot="R180"/>
@@ -8953,7 +8963,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <instance part="GND13" gate="1" x="-35.56" y="-15.24"/>
 <instance part="GND14" gate="1" x="-76.2" y="-15.24"/>
 <instance part="R2" gate="G$1" x="-81.28" y="20.32"/>
-<instance part="GND10" gate="1" x="63.5" y="-15.24"/>
+<instance part="GND10" gate="1" x="71.12" y="-15.24"/>
 <instance part="R9" gate="G$1" x="-25.4" y="10.16"/>
 <instance part="C3" gate="G$1" x="-2.54" y="40.64"/>
 <instance part="R1" gate="G$1" x="-83.82" y="58.42" rot="R90"/>
@@ -8966,7 +8976,17 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <instance part="R5" gate="G$1" x="-55.88" y="48.26"/>
 <instance part="R6" gate="G$1" x="-25.4" y="53.34"/>
 <instance part="R7" gate="G$1" x="-25.4" y="48.26"/>
-<instance part="RGB_LED" gate="G$1" x="63.5" y="2.54"/>
+<instance part="RGB_LED" gate="G$1" x="71.12" y="2.54"/>
+<instance part="R22" gate="G$1" x="50.8" y="50.8" rot="R270"/>
+<instance part="R23" gate="G$1" x="55.88" y="50.8" rot="R270"/>
+<instance part="C4" gate="G$1" x="88.9" y="5.08"/>
+<instance part="GND17" gate="1" x="88.9" y="-15.24"/>
+<instance part="R24" gate="G$1" x="101.6" y="30.48"/>
+<instance part="BAT-1" gate="G$1" x="99.06" y="0" rot="R180"/>
+<instance part="BAT+1" gate="G$1" x="99.06" y="10.16" rot="R180"/>
+<instance part="BAT+2" gate="G$1" x="116.84" y="10.16" rot="R180"/>
+<instance part="BAT-2" gate="G$1" x="116.84" y="0" rot="R180"/>
+<instance part="GND18" gate="1" x="114.3" y="-15.24"/>
 </instances>
 <busses>
 </busses>
@@ -8995,15 +9015,15 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="124.46" y1="20.32" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="20.32" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="ESP" gate="G$1" pin="GPIO4"/>
-<wire x1="114.3" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="33.02" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="33.02" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="A1"/>
-<wire x1="12.7" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<junction x="58.42" y="20.32"/>
+<wire x1="12.7" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<junction x="66.04" y="20.32"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9037,7 +9057,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <segment>
 <pinref part="ESP" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="114.3" y1="43.18" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="43.18" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -9047,7 +9067,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="119.38" y1="-12.7" x2="119.38" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="127" y1="-12.7" x2="127" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="T2" gate="A" pin="S"/>
@@ -9057,7 +9077,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="68.58" y1="-10.16" x2="68.58" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-10.16" x2="76.2" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -9075,7 +9095,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="58.42" y1="-12.7" x2="58.42" y2="0" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-12.7" x2="66.04" y2="0" width="0.1524" layer="91"/>
 <pinref part="RGB_LED" gate="G$1" pin="RC"/>
 </segment>
 <segment>
@@ -9112,7 +9132,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="63.5" y1="0" x2="63.5" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="0" x2="71.12" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="RGB_LED" gate="G$1" pin="GC"/>
 </segment>
 <segment>
@@ -9125,51 +9145,75 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="-60.96" y1="53.34" x2="-60.96" y2="55.88" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="88.9" y1="0" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="BAT-1" gate="G$1" pin="P"/>
+<wire x1="88.9" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
+<junction x="88.9" y="0"/>
+</segment>
+<segment>
+<pinref part="BAT-2" gate="G$1" pin="P"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="114.3" y1="0" x2="114.3" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="ESP" gate="G$1" pin="CH_PD"/>
-<wire x1="58.42" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="55.88" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="ESP" gate="G$1" pin="REST"/>
 <pinref part="ESP" gate="G$1" pin="GPIO16"/>
-<wire x1="81.28" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="53.34" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
-<junction x="81.28" y="60.96"/>
+<wire x1="88.9" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="53.34" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<junction x="88.9" y="60.96"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="7.62" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="88.9" y="53.34"/>
+<pinref part="BAT+1" gate="G$1" pin="P"/>
+<wire x1="88.9" y1="10.16" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="88.9" y="10.16"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="ESP" gate="G$1" pin="GPIO15"/>
-<wire x1="114.3" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="45.72" x2="119.38" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="127" y1="45.72" x2="127" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="27.94" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="25.4" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="ESP" gate="G$1" pin="GPIO0"/>
-<wire x1="121.92" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="BAT+2" gate="G$1" pin="P"/>
+<wire x1="114.3" y1="10.16" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+<junction x="114.3" y="25.4"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="ESP" gate="G$1" pin="GPIO13"/>
-<wire x1="83.82" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="45.72" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="7.62" x2="68.58" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="7.62" x2="68.58" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="7.62" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="RGB_LED" gate="G$1" pin="BA"/>
 </segment>
 </net>
@@ -9177,10 +9221,10 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="17.78" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="127" y1="17.78" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="17.78" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="ESP" gate="G$1" pin="GPIO5"/>
-<wire x1="114.3" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="17.78" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="17.78" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="T2" gate="A" pin="G"/>
 <wire x1="20.32" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
@@ -9190,36 +9234,40 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <net name="N$12" class="0">
 <segment>
 <pinref part="ESP" gate="G$1" pin="VCC"/>
-<wire x1="83.82" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="45.72" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="45.72" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="45.72" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
-<junction x="53.34" y="43.18"/>
+<wire x1="66.04" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="45.72" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
+<junction x="60.96" y="43.18"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="43.18" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="43.18" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="30.48" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<junction x="58.42" y="43.18"/>
+<junction x="66.04" y="43.18"/>
 <pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="48.26" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<junction x="60.96" y="30.48"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="ESP" gate="G$1" pin="GPIO12"/>
-<wire x1="68.58" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="48.26" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="48.26" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="ESP" gate="G$1" pin="GPIO14"/>
-<wire x1="63.5" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="50.8" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="50.8" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -9253,7 +9301,7 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="ESP" gate="G$1" pin="ADC"/>
-<wire x1="30.48" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 <junction x="30.48" y="58.42"/>
@@ -9312,13 +9360,17 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="63.5" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="71.12" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="71.12" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="127" y1="71.12" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="ESP" gate="G$1" pin="RXD"/>
-<wire x1="119.38" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="127" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-68.58" y1="60.96" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-68.58" y="71.12"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<junction x="55.88" y="71.12"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -9326,13 +9378,17 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-78.74" y1="63.5" x2="-78.74" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="68.58" x2="-60.96" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="68.58" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="68.58" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="ESP" gate="G$1" pin="TXD"/>
-<wire x1="116.84" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="-60.96" y1="60.96" x2="-60.96" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-60.96" y="68.58"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="55.88" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<junction x="50.8" y="68.58"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -9353,14 +9409,14 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="48.26" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="30.48" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="30.48" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-20.32" y="10.16"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="RGB_LED" gate="G$1" pin="RA"/>
-<wire x1="58.42" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="10.16" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
-<junction x="58.42" y="10.16"/>
+<wire x1="66.04" y1="10.16" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="10.16" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
+<junction x="66.04" y="10.16"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -9370,11 +9426,11 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <wire x1="-20.32" y1="53.34" x2="-15.24" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="53.34" x2="-15.24" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="30.48" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="15.24" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="30.48" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="15.24" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-15.24" y="15.24"/>
-<junction x="63.5" y="15.24"/>
+<junction x="71.12" y="15.24"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="RGB_LED" gate="G$1" pin="GA"/>
 </segment>
@@ -9401,6 +9457,27 @@ WR-COM_USB_Micro Type AB_Horizontal_SMT Micro Type AB Horizontal SMT - with Pegs
 <segment>
 <pinref part="RGB_LED" gate="G$1" pin="BC"/>
 <pinref part="R19" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="ESP" gate="G$1" pin="GPIO2"/>
+<wire x1="121.92" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="48.26" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<junction x="50.8" y="40.64"/>
+<pinref part="U1" gate="G$1" pin="OUT@1"/>
+<wire x1="48.26" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
